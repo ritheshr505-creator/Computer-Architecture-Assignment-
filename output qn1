@@ -1,0 +1,16 @@
+=== 8-Bit 2's Complement Arithmetic Verification ===
+
+Expression: 48 + (23)
+  Operand A (  48): 00110000
+  Operand B (  23): 00010111
+  Result Binary : 01000111
+  Result Decimal: 71
+  Overflow      : NO ✓
+---------------------------------------------
+Expression: (-46) - (-29)
+  Operand A ( -46): 11010010
+  Operand B ( -29): 11100011
+  Result Binary : 11101111
+  Result Decimal: -17
+  Overflow      : NO ✓
+---------------------------------------------
