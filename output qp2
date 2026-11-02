@@ -1,0 +1,13 @@
+--- ROR (Rotate Right without Carry) by 2 positions ---
+Original Binary: 11010101
+  Step 1 Result: 11101010
+  Step 2 Result: 01110101
+Final ROR Result: 01110101
+
+--- RCR (Rotate Right with Carry) by 2 positions ---
+Initial Carry (C): 0
+Original Binary  : 11010101
+  Step 1 Result: C=1, Byte=01101010 [Combined: C=1 | 01101010]
+  Step 2 Result: C=0, Byte=10110101 [Combined: C=0 | 10110101]
+Final Carry      : 0
+Final RCR Result : 10110101
